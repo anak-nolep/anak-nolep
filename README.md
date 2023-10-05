@@ -1,7 +1,7 @@
 <img align="left" src="https://metrics.lecoq.io/anak-nolep" style="max-width: 100%;">
 
 <h3 align="left">About me</h3>
-People can call me "A Byte" irl
+People call me "A Byte" irl
 
 <h3 align="left">Status</h3>
 
