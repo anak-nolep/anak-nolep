@@ -1,0 +1,143 @@
+/* COLOR VARIABLES */
+/* MEDIA QUERIES */
+.post-cover {
+  width: 800px;
+  height: 450px;
+}
+
+.index-content {
+  margin-top: 20px;
+}
+
+.social-media-list {
+  display: flex; /* Display list items in a row */
+  justify-content: flex-start; /* Align items to the left */
+  margin: 10px; /* Remove default padding */
+}
+
+.social-media-list a {
+  margin-right: 10px; /* Add margin to the right for spacing between links */
+}
+
+.social-media-list img {
+  display: block; /* Ensure the image is a block element */
+  margin: 0 auto; /* Center the image horizontally within the link */
+}
+
+.framed {
+  border: 1px solid #23B0FF;
+  padding: 20px;
+}
+.framed *:first-child {
+  margin-top: 0;
+}
+.framed *:last-child {
+  margin-bottom: 0;
+}
+
+.posts {
+  width: 100%;
+}
+
+.post {
+  width: 100%;
+  text-align: left;
+  margin: 20px auto;
+  padding: 20px 0;
+}
+.post:not(:last-of-type) {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+.post-meta {
+  font-size: 1rem;
+  margin-bottom: 10px;
+  color: rgba(35, 176, 255, 0.7);
+}
+.post-meta > *:not(:first-child)::before {
+  content: "::";
+  display: inline-block;
+  margin: 0 8px;
+}
+.post-title {
+  position: relative;
+  color: #23B0FF;
+  margin: 0 0 15px;
+  padding-bottom: 15px;
+  border-bottom: 3px dotted #23B0FF;
+}
+.post-title:after {
+  content: "";
+  position: absolute;
+  bottom: 2px;
+  display: block;
+  width: 100%;
+  border-bottom: 3px dotted #23B0FF;
+}
+.post-title a {
+  text-decoration: none;
+}
+.post-tags {
+  display: block;
+  margin-bottom: 20px;
+  font-size: 1rem;
+  opacity: 0.5;
+}
+.post-tags a {
+  text-decoration: none;
+}
+.post-content {
+  margin-top: 30px;
+}
+.post-cover {
+  border: 20px solid #23B0FF;
+  background: transparent;
+  margin: 40px 0;
+  padding: 20px;
+}
+@media (max-width: 684px) {
+  .post-cover {
+    padding: 10px;
+    border-width: 10px;
+  }
+}
+.post ul {
+  list-style: none;
+}
+.post ul li:not(:empty):before {
+  content: "-";
+  position: absolute;
+  left: -20px;
+  color: #23B0FF;
+}
+
+.post--regulation h1 {
+  justify-content: center;
+}
+.post--regulation h2 {
+  justify-content: center;
+  margin-bottom: 10px;
+}
+.post--regulation h2 + h2 {
+  margin-top: -10px;
+  margin-bottom: 20px;
+}
+
+.hanchor {
+  color: rgba(35, 176, 255, 0.9);
+  text-decoration: none;
+  margin-left: 10px;
+  visibility: hidden;
+}
+
+h1:hover a,
+h2:hover a,
+h3:hover a,
+h4:hover a {
+  visibility: visible;
+}
+
+.footnotes {
+  color: rgba(255, 255, 255, 0.5);
+}
+
+/*# sourceMappingURL=post.css.map */

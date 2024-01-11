@@ -1,0 +1,12 @@
+/* COLOR VARIABLES */
+/* MEDIA QUERIES */
+.logo {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  background: #23B0FF;
+  color: black;
+  padding: 5px 10px;
+}
+
+/*# sourceMappingURL=logo.css.map */

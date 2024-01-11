@@ -1,0 +1,27 @@
+.__h_video {
+  position: relative;
+  padding-bottom: 56.23%;
+  height: 0;
+  overflow: hidden;
+  width: 100%;
+  background: #000;
+}
+
+.__h_video img {
+  width: 100%;
+  height: auto;
+  color: #000;
+}
+
+.__h_video .play {
+  height: 72px;
+  width: 72px;
+  left: 50%;
+  top: 50%;
+  margin-left: -36px;
+  margin-top: -36px;
+  position: absolute;
+  cursor: pointer;
+}
+
+/*# sourceMappingURL=additional.css.map */

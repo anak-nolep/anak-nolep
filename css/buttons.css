@@ -1,0 +1,102 @@
+/* COLOR VARIABLES */
+/* MEDIA QUERIES */
+.button-container {
+  display: table;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+button,
+.button,
+a.button {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 8px 18px;
+  margin: 5px 0;
+  text-decoration: none;
+  text-align: center;
+  border-radius: 8;
+  border: 1px solid #23B0FF;
+  background: #23B0FF;
+  color: #1d212c;
+  font: inherit;
+  font-weight: bold;
+  appearance: none;
+  cursor: pointer;
+  outline: none;
+  /* variants */
+  /* sizes */
+}
+button:hover,
+.button:hover,
+a.button:hover {
+  background: rgba(35, 176, 255, 0.9);
+}
+button.outline,
+.button.outline,
+a.button.outline {
+  background: transparent;
+  box-shadow: none;
+  padding: 8px 18px;
+}
+button.outline :hover,
+.button.outline :hover,
+a.button.outline :hover {
+  transform: none;
+  box-shadow: none;
+}
+button.link,
+.button.link,
+a.button.link {
+  background: none;
+  font-size: 1rem;
+}
+button.small,
+.button.small,
+a.button.small {
+  font-size: 0.8rem;
+}
+button.wide,
+.button.wide,
+a.button.wide {
+  min-width: 200px;
+  padding: 14px 24px;
+}
+
+a.read-more,
+a.read-more:hover,
+a.read-more:active {
+  display: inline-flex;
+  border: none;
+  color: #23B0FF;
+  background: none;
+  box-shadow: none;
+  padding: 0;
+  margin: 20px 0;
+  max-width: 100%;
+}
+
+.code-toolbar {
+  margin-bottom: 20px;
+}
+.code-toolbar .toolbar-item a {
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 3px 8px;
+  margin-bottom: 5px;
+  text-decoration: none;
+  text-align: center;
+  font-size: 13px;
+  font-weight: 500;
+  border-radius: 8px;
+  border: 1px solid transparent;
+  appearance: none;
+  cursor: pointer;
+  outline: none;
+}
+
+/*# sourceMappingURL=buttons.css.map */
