@@ -1,4 +1,4 @@
-<img align="left" src="https://metrics.lecoq.io/anak-nolep?template=classic&config.timezone=Asia%2FJakarta"
+<img align="left" src="/metrics.svg"
     style="max-width: 100%;">
 
 <h3 align="left">About me</h3>
